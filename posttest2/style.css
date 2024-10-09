@@ -1,0 +1,111 @@
+
+
+body {
+    font-family: 'Bahnschrift', 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', 'sans-serif-condensed', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #ebe2e2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    background:#d721b0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.info-box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.info-item input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.order-summary {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #d721b0;
+    color: #fff;
+    border-radius: 20px;
+}
+
+td img.menu-img {
+    max-width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.payment-methods {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.payment-option {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #d721b0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
